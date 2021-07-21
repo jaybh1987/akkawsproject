@@ -1,0 +1,8 @@
+References
+
+Websocket help:
+https://stackoverflow.com/questions/50882394/best-way-to-keep-websocket-connection-alive-in-akka-http
+https://scalac.io/blog/websockets-server-with-akka-http/
+
+configurationFile help:
+https://doc.akka.io/docs/akka/current/general/configuration.html

@@ -1,0 +1,8 @@
+.bsp/
+.idea/
+Notes.text
+application.conf
+build.sbt
+project/
+target/
+
