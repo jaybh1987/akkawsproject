@@ -31,7 +31,7 @@ object HttpServerRoutingMinimal {
           case bm: BinaryMessage =>
             // ignore binary messages but drain content to avoid the stream being clogged
             bm.dataStream.runWith(Sink.ignore)
-            Nil
+            Nil  
         }
       val websocketRoute = path("greeter") {
           handleWebSocketMessages(greeter)
